@@ -1,0 +1,24 @@
+{
+	"pipeline": {
+		"build": {
+			"dependsOn": ["^build"],
+			"outputs": ["dist/**"]
+		},
+		"lint": {
+			"dependsOn": [],
+			"outputs": []
+		},
+		"bump": {
+			"dependsOn": [],
+			"outputs": ["CHANGELOG.md"]
+		},
+		"check-update": {
+			"dependsOn": [],
+			"outputs": []
+		},
+		"docs": {
+			"dependsOn": [],
+			"outputs": ["docs/**"]
+		}
+	}
+}

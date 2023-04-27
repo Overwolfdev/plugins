@@ -41,7 +41,7 @@ jobs:
       - name: Install Dependencies
         run: yarn --immutable
       - name: Run tests
-        run: yarn test --coverage
+        run: yarn test
       - name: Store code coverage report
         uses: actions/upload-artifact@v3
         with:
@@ -64,8 +64,25 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Install Dependencies
         run: yarn --immutable
-      - name: Build Code
+      - name: Compile Projects
         run: yarn build
+
+  docs:
+    name: Generate Documentation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Project
+        uses: actions/checkout@v3
+      - name: Use Node.js v16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: yarn
+          registry-url: https://registry.npmjs.org/
+      - name: Install Dependencies
+        run: yarn --immutable
+      - name: Generate Documentation
+        run: yarn docs
 
   Upload_Coverage_Report:
     name: Upload coverage report to codecov
@@ -82,7 +99,7 @@ jobs:
           name: coverage
           path: coverage/
       - name: Codecov Upload
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v3.1.1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           directory: coverage/
