@@ -2,14 +2,14 @@
 
 ![Sapphire Logo](https://raw.githubusercontent.com/OverWolfDev/assets/main/banners/SapphireCommunity.png)
 
-# @sapphire/plugin-logger
+# @overwolf/plugin-logger
 
-**Plugin for <a href="https://github.com/OverWolfDev/framework">@sapphire/framework</a> to have pretty console output.**
+**Plugin for <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to have pretty console output.**
 
-[![GitHub](https://img.shields.io/github/license/OverWolfDev/plugins)](https://github.com/OverWolfDev/plugins/blob/main/LICENSE.md)
-[![codecov](https://codecov.io/gh/OverWolfDev/plugins/branch/main/graph/badge.svg?token=QWL8FB16BR)](https://codecov.io/gh/OverWolfDev/plugins)
-[![npm bundle size](https://img.shields.io/bundlephobia/min/@sapphire/plugin-logger?logo=webpack&style=flat-square)](https://bundlephobia.com/result?p=@sapphire/plugin-logger)
-[![npm](https://img.shields.io/npm/v/@sapphire/plugin-logger?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@sapphire/plugin-logger)
+[![GitHub](https://img.shields.io/github/license/OverWolfDev/core)](https://github.com/OverWolfDev/core/blob/main/LICENSE.md)
+[![codecov](https://codecov.io/gh/OverWolfDev/core/branch/main/graph/badge.svg?token=QWL8FB16BR)](https://codecov.io/gh/OverWolfDev/core)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/@overwolf/plugin-logger?logo=webpack&style=flat-square)](https://bundlephobia.com/result?p=@overwolf/plugin-logger)
+[![npm](https://img.shields.io/npm/v/@overwolf/plugin-logger?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@overwolf/plugin-logger)
 
 </div>
 
@@ -26,14 +26,14 @@ with the blazing fast [`colorette`](https://www.npmjs.com/package/colorette) lib
 
 ## Installation
 
-`@sapphire/plugin-logger` depends on the following packages. Be sure to install these along with this package!
+`@overwolf/plugin-logger` depends on the following packages. Be sure to install these along with this package!
 
 -   [`@sapphire/framework`](https://www.npmjs.com/package/@sapphire/framework)
 
 You can use the following command to install this package, or replace `npm install` with your package manager of choice.
 
 ```sh
-npm install @sapphire/plugin-logger @sapphire/framework
+npm install @overwolf/plugin-logger @sapphire/framework
 ```
 
 ---
@@ -45,7 +45,7 @@ This registers the necessary options and methods in the Sapphire client to be ab
 ```typescript
 // Main bot file
 // Be sure to register the plugin before instantiating the client.
-import '@sapphire/plugin-logger/register';
+import '@overwolf/plugin-logger/register';
 ```
 
 In order to use the Logger in any place other than a piece (commands, arguments, preconditions, etc.), you must first import the `container` property of `@sapphire/framework`. For pieces, you can simply use `this.container.logger` to access Logger methods.
@@ -112,8 +112,8 @@ Please make sure to read the [Contributing Guide][contributing] before making a 
 
 Thank you to all the people who already contributed to Sapphire!
 
-<a href="https://github.com/OverWolfDev/plugins/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=OverWolfDev/plugins" />
+<a href="https://github.com/OverWolfDev/core/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=OverWolfDev/core" />
 </a>
 
 [contributing]: https://github.com/OverWolfDev/.github/blob/main/.github/CONTRIBUTING.md
