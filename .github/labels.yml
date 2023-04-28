@@ -40,7 +40,7 @@
   color: '24853c'
 - name: packages:logger
   color: 'fbca04'
-- name: packages:utilities-store
+- name: packages:subcommands-advanced
   color: 'fbca04'
 - name: performance
   color: '80c042'
@@ -48,8 +48,8 @@
   color: 'b60205'
 - name: priority:high
   color: 'fc1423'
-- name: question (please use Discord instead)
-  color: 'd876e3'
+# - name: question (please use Discord instead)
+#  color: 'd876e3'
 - name: refactor
   color: '1d637f'
 - name: regression
