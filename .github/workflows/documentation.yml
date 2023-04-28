@@ -16,7 +16,7 @@ jobs:
     name: Build Documentation
     runs-on: ubuntu-latest
 
-    if: github.repository_owner == 'OverWolfDev'
+    if: github.repository_owner == 'overwolfdev'
     outputs:
       NAME: ${{ steps.env.outputs.NAME }}
       TYPE: ${{ steps.env.outputs.TYPE }}
@@ -81,7 +81,7 @@ jobs:
       - name: Checkout Documentation Project
         uses: actions/checkout@v3
         with:
-          repository: 'OverWolfDev/docs'
+          repository: 'overwolfdev/docs'
           token: ${{ secrets.SKYRA_TOKEN }}
           path: 'out'
 

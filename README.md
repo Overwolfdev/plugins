@@ -1,36 +1,30 @@
+<!-- markdownlint-disable -->
 <div align="center">
 
-![Sapphire Logo](https://raw.githubusercontent.com/OverWolfDev/assets/main/banners/SapphireCommunity.png)
+![Sapphire Logo](https://raw.githubusercontent.com/overwolf/assets/main/banners/SapphireCommunity.png)
 
-# @sapphire/template
+# Overwolf Plugins
 
-**Template for Sapphire Repositories.**
+**Plugins for Sapphire Framework.**
 
-[![GitHub](https://img.shields.io/github/license/OverWolfDev/sapphire-template)](https://github.com/OverWolfDev/sapphire-template/blob/main/LICENSE.md)
-[![codecov](https://codecov.io/gh/OverWolfDev/sapphire-template/branch/main/graph/badge.svg?token=0MSAyoZNxz)](https://codecov.io/gh/OverWolfDev/sapphire-template)
-[![npm](https://img.shields.io/npm/v/@sapphire/template?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@sapphire/template)
+[![GitHub](https://img.shields.io/github/license/overwolfdev/sapphire-template)](https://github.com/overwolfdev/sapphire-template/blob/main/LICENSE.md)
+
+# Packages\*\*
+
+[![npm](https://img.shields.io/npm/v/@overwolf/plugin-api?color=crimson&logo=npm&style=flat-square&label=@overwolf/plugin-api)](https://www.npmjs.com/package/@overwolf/plugin-api)
+[![npm](https://img.shields.io/npm/v/@overwolf/plugin-editable-commands?color=crimson&logo=npm&style=flat-square&label=@overwolf/plugin-editable-commands)](https://www.npmjs.com/package/@overwolf/plugin-editable-commands)
+[![npm](https://img.shields.io/npm/v/@overwolf/plugin-logger?color=crimson&logo=npm&style=flat-square&label=@overwolf/plugin-logger)](https://www.npmjs.com/package/@overwolf/plugin-logger)
+[![npm](https://img.shields.io/npm/v/@overwolf/plugin-i18next?color=crimson&logo=npm&style=flat-square&label=@overwolf/plugin-i18next)](https://www.npmjs.com/package/@overwolf/plugin-i18next)
+[![npm](https://img.shields.io/npm/v/@overwolf/plugin-subcommands?color=crimson&logo=npm&style=flat-square&label=@overwolf/plugin-subcommands)](https://www.npmjs.com/package/@overwolf/plugin-subcommands)
+[![npm](https://img.shields.io/npm/v/@overwolf/plugin-scheduled-tasks?color=crimson&logo=npm&style=flat-square&label=@overwolf/plugin-scheduled-tasks)](https://www.npmjs.com/package/@overwolf/plugin-scheduled-tasks)
+[![npm](https://img.shields.io/npm/v/@overwolf/plugin-pattern-commands?color=crimson&logo=npm&style=flat-square&label=@overwolf/plugin-pattern-commands)](https://www.npmjs.com/package/@overwolf/plugin-pattern-commands)
+[![npm](https://img.shields.io/npm/v/@overwolf/plugin-hmr?color=crimson&logo=npm&style=flat-square&label=@overwolf/plugin-hmr)](https://www.npmjs.com/package/@overwolf/plugin-hmr)
 
 ## Features
 
--   This
--   Needs
--   Some
--   More
--   Filling
--   In
-
-## Buy us some doughnuts
-
-Sapphire Community is and always will be open source, even if we don't get donations. That being said, we know there are amazing people who may still want to donate just to show their appreciation. Thank you very much in advance!
-
-We accept donations through Open Collective, Ko-fi, Paypal, Patreon and GitHub Sponsorships. You can use the buttons below to donate through your method of choice.
-
-|   Donate With   |                       Address                       |
-| :-------------: | :-------------------------------------------------: |
-| Open Collective | [Click Here](https://sapphirejs.dev/opencollective) |
-|      Ko-fi      |      [Click Here](https://sapphirejs.dev/kofi)      |
-|     Patreon     |    [Click Here](https://sapphirejs.dev/patreon)     |
-|     PayPal      |     [Click Here](https://sapphirejs.dev/paypal)     |
+-   Full TypeScript & JavaScript support
+-   Written in TypeScript
+-   Comumunity plugins
 
 ## Contributors
 
@@ -38,8 +32,8 @@ Please make sure to read the [Contributing Guide][contributing] before making a 
 
 Thank you to all the people who already contributed to Sapphire!
 
-<a href="https://github.com/OverWolfDev/sapphire-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=OverWolfDev/sapphire-template" />
+<a href="https://github.com/overwolfdev/sapphire-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=overwolfdev/sapphire-template" />
 </a>
 
-[contributing]: https://github.com/OverWolfDev/.github/blob/main/.github/CONTRIBUTING.md
+[contributing]: https://github.com/overwolfdev/.github/blob/main/.github/CONTRIBUTING.md

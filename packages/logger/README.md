@@ -1,13 +1,13 @@
 <div align="center">
 
-![Sapphire Logo](https://raw.githubusercontent.com/OverWolfDev/assets/main/banners/SapphireCommunity.png)
+![Sapphire Logo](https://raw.githubusercontent.com/overwolfdev/assets/main/banners/SapphireCommunity.png)
 
 # @overwolf/plugin-logger
 
 **Plugin for <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to have pretty console output.**
 
-[![GitHub](https://img.shields.io/github/license/OverWolfDev/core)](https://github.com/OverWolfDev/core/blob/main/LICENSE.md)
-[![codecov](https://codecov.io/gh/OverWolfDev/core/branch/main/graph/badge.svg?token=QWL8FB16BR)](https://codecov.io/gh/OverWolfDev/core)
+[![GitHub](https://img.shields.io/github/license/overwolfdev/core)](https://github.com/overwolfdev/core/blob/main/LICENSE.md)
+[![codecov](https://codecov.io/gh/overwolfdev/core/branch/main/graph/badge.svg?token=QWL8FB16BR)](https://codecov.io/gh/overwolfdev/core)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/@overwolf/plugin-logger?logo=webpack&style=flat-square)](https://bundlephobia.com/result?p=@overwolf/plugin-logger)
 [![npm](https://img.shields.io/npm/v/@overwolf/plugin-logger?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@overwolf/plugin-logger)
 
@@ -112,8 +112,8 @@ Please make sure to read the [Contributing Guide][contributing] before making a 
 
 Thank you to all the people who already contributed to Sapphire!
 
-<a href="https://github.com/OverWolfDev/core/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=OverWolfDev/core" />
+<a href="https://github.com/overwolfdev/core/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=overwolfdev/core" />
 </a>
 
-[contributing]: https://github.com/OverWolfDev/.github/blob/main/.github/CONTRIBUTING.md
+[contributing]: https://github.com/overwolfdev/.github/blob/main/.github/CONTRIBUTING.md

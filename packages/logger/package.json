@@ -24,7 +24,7 @@
 		"./register.js",
 		"./register.mjs"
 	],
-	"homepage": "https://github.com/OverWolfDev/core/tree/main/packages/logger",
+	"homepage": "https://github.com/overwolfdev/core/tree/main/packages/logger",
 	"scripts": {
 		"test": "vitest run",
 		"lint": "eslint src tests --ext ts --fix",
@@ -44,7 +44,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/OverWolfDev/core.git",
+		"url": "git+https://github.com/overwolfdev/core.git",
 		"directory": "packages/logger"
 	},
 	"files": [
@@ -58,7 +58,7 @@
 		"npm": ">=7.0.0"
 	},
 	"keywords": [
-		"OverWolfDev",
+		"overwolfdev",
 		"plugin",
 		"bot",
 		"typescript",
@@ -68,7 +68,7 @@
 		"sapphire"
 	],
 	"bugs": {
-		"url": "https://github.com/OverWolfDev/core/issues"
+		"url": "https://github.com/overwolfdev/core/issues"
 	},
 	"publishConfig": {
 		"access": "public"

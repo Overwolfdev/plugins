@@ -52,7 +52,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/OverWolfDev/core.git"
+		"url": "git+https://github.com/overwolfdev/core.git"
 	},
 	"engines": {
 		"node": ">=v14.0.0",
