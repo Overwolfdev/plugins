@@ -57,7 +57,7 @@ commit_parsers = [
     { body = ".*security", group = "🛡️ Security"},
 ]
 filter_commits = true
-tag_pattern = "@overwolfdev/plugin-logger@[0-9]*"
+tag_pattern = "@overwolfdevdev/plugin-logger@[0-9]*"
 ignore_tags = ""
 topo_order = false
 sort_commits = "newest"

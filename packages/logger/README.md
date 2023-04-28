@@ -2,14 +2,14 @@
 
 ![Sapphire Logo](https://raw.githubusercontent.com/overwolfdev/assets/main/banners/SapphireCommunity.png)
 
-# @overwolfdev/plugin-logger
+# @overwolfdevdev/plugin-logger
 
 **Plugin for <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to have pretty console output.**
 
 [![GitHub](https://img.shields.io/github/license/overwolfdev/core)](https://github.com/overwolfdev/core/blob/main/LICENSE.md)
 [![codecov](https://codecov.io/gh/overwolfdev/core/branch/main/graph/badge.svg?token=QWL8FB16BR)](https://codecov.io/gh/overwolfdev/core)
-[![npm bundle size](https://img.shields.io/bundlephobia/min/@overwolfdev/plugin-logger?logo=webpack&style=flat-square)](https://bundlephobia.com/result?p=@overwolfdev/plugin-logger)
-[![npm](https://img.shields.io/npm/v/@overwolfdev/plugin-logger?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@overwolfdev/plugin-logger)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/@overwolfdevdev/plugin-logger?logo=webpack&style=flat-square)](https://bundlephobia.com/result?p=@overwolfdevdev/plugin-logger)
+[![npm](https://img.shields.io/npm/v/@overwolfdevdev/plugin-logger?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@overwolfdevdev/plugin-logger)
 
 </div>
 
@@ -26,14 +26,14 @@ with the blazing fast [`colorette`](https://www.npmjs.com/package/colorette) lib
 
 ## Installation
 
-`@overwolfdev/plugin-logger` depends on the following packages. Be sure to install these along with this package!
+`@overwolfdevdev/plugin-logger` depends on the following packages. Be sure to install these along with this package!
 
 -   [`@sapphire/framework`](https://www.npmjs.com/package/@sapphire/framework)
 
 You can use the following command to install this package, or replace `npm install` with your package manager of choice.
 
 ```sh
-npm install @overwolfdev/plugin-logger @sapphire/framework
+npm install @overwolfdevdev/plugin-logger @sapphire/framework
 ```
 
 ---
@@ -45,7 +45,7 @@ This registers the necessary options and methods in the Sapphire client to be ab
 ```typescript
 // Main bot file
 // Be sure to register the plugin before instantiating the client.
-import '@overwolfdev/plugin-logger/register';
+import '@overwolfdevdev/plugin-logger/register';
 ```
 
 In order to use the Logger in any place other than a piece (commands, arguments, preconditions, etc.), you must first import the `container` property of `@sapphire/framework`. For pieces, you can simply use `this.container.logger` to access Logger methods.
