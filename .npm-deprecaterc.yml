@@ -1,3 +1,3 @@
 name: '*next*'
 package:
-  - '@overwolf/plugin-logger'
+  - '@overwolfdev/plugin-logger'

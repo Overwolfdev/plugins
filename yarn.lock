@@ -733,9 +733,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@overwolf/plugin-logger@workspace:packages/logger":
+"@overwolfdev/plugin-logger@workspace:packages/logger":
   version: 0.0.0-use.local
-  resolution: "@overwolf/plugin-logger@workspace:packages/logger"
+  resolution: "@overwolfdev/plugin-logger@workspace:packages/logger"
   dependencies:
     "@favware/cliff-jumper": ^2.0.0
     "@sapphire/timestamp": ^1.0.1

@@ -1,8 +1,8 @@
 {
-	"name": "@overwolfdevdev/plugin-logger",
+	"name": "@overwolfdevdevdev/plugin-logger",
 	"version": "1.0.0",
 	"description": "Plugin for @sapphire/framework to have pretty console output",
-	"author": "@overwolfdevdev",
+	"author": "@overwolfdevdevdev",
 	"license": "MIT",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
