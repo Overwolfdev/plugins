@@ -749,9 +749,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@overwolf/plugin-subcommands-advanced@workspace:packages/subcommands-advanced":
+"@overwolfdev/plugin-subcommands-advanced@workspace:packages/subcommands-advanced":
   version: 0.0.0-use.local
-  resolution: "@overwolf/plugin-subcommands-advanced@workspace:packages/subcommands-advanced"
+  resolution: "@overwolfdev/plugin-subcommands-advanced@workspace:packages/subcommands-advanced"
   dependencies:
     "@favware/cliff-jumper": ^2.0.0
     "@sapphire/decorators": ^6.0.1

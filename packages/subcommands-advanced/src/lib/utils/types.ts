@@ -33,7 +33,7 @@ export interface SubcommandMappingCollection {
 }
 
 /**
- * Internal plugin options of `@overwolf/plugin-subcommands-advanced`
+ * Internal plugin options of `@overwolfdev/plugin-subcommands-advanced`
  *
  * Defines options to control the plugin behavior.
  *

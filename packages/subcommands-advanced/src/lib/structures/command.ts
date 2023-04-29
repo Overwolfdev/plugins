@@ -48,7 +48,7 @@ export namespace Command {
  * *Parent command*
  *
  * ```typescript
- * import { SubCommand } from '@overwolf/plugin-subcommands-advanced';
+ * import { SubCommand } from '@overwolfdev/plugin-subcommands-advanced';
  * import { ApplicationCommandRegistry } from '@sapphire/framework';
  *
  * export class ParentCommand extends SubCommand {
@@ -76,7 +76,7 @@ export namespace Command {
  *
  * *With Typescript*
  * ```typescript
- * import { SubCommand } from '@overwolf/plugin-subcommands-advanced'
+ * import { SubCommand } from '@overwolfdev/plugin-subcommands-advanced'
  *
  * export class UtilsCommand extends SubCommand {
  * 		public constructor(context: Command.Context, options: Command.Options) {
@@ -98,7 +98,7 @@ export namespace Command {
  * *With JavaScript*
  *
  * ```javascript
- * import { Command } from '@overwolf/plugin-subcommands-advanced'
+ * import { Command } from '@overwolfdev/plugin-subcommands-advanced'
  *
  * export class UtilsCommand extends Command {
  * 		constructor(context, options) {
@@ -124,7 +124,7 @@ export namespace Command {
  * *Parent command*
  *
  * ```typescript
- * import { SubCommand } from '@overwolf/plugin-subcommands-advanced';
+ * import { SubCommand } from '@overwolfdev/plugin-subcommands-advanced';
  * import { ApplicationCommandRegistry } from '@sapphire/framework';
  *
  * export class ParentCommand extends SubCommand {
@@ -160,7 +160,7 @@ export namespace Command {
  * *With Typescript*
  *
  * ```typescript
- * import { Command } from '@overwolf/plugin-subcommands-advanced'
+ * import { Command } from '@overwolfdev/plugin-subcommands-advanced'
  *
  * export class PollCreateCommand extends Command {
  * 		public constructor(context: Command.Context, options: Command.Options) {
@@ -183,7 +183,7 @@ export namespace Command {
  * *With JavaScript*
  *
  * ```javascript
- * import { Command } from '@overwolf/plugin-subcommands-advanced'
+ * import { Command } from '@overwolfdev/plugin-subcommands-advanced'
  *
  * export class PollCreateCommand extends Command {
  * 		constructor(context, options) {
@@ -256,7 +256,7 @@ export namespace Subcommand {
  * *TypeScript*
  *
  * ```typescript
- * import { Subcommand } from '@overwolf/plugin-subcommands-advanced';
+ * import { Subcommand } from '@overwolfdev/plugin-subcommands-advanced';
  * import { ApplicationCommandRegistry } from '@sapphire/framework';
  *
  * export class ParentCommand extends Subcommand {
@@ -296,7 +296,7 @@ export namespace Subcommand {
  * *JavaScript*
  *
  * ```javascript
- * import { Subcommand } from '@overwolf/plugin-subcommands-advanced';
+ * import { Subcommand } from '@overwolfdev/plugin-subcommands-advanced';
  *
  * export class ParentCommand extends Subcommand {
  * 		public constructor(context, options) {

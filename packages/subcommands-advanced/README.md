@@ -1,13 +1,13 @@
 ![Sapphire Logo](https://raw.githubusercontent.com/OverWolfDev/assets/main/banners/SapphireCommunity.png)
 
-# @overwolf/plugin-subcommands-advanced
+# @overwolfdev/plugin-subcommands-advanced
 
 **Plugin for <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to have pretty console output.**
 
 [![GitHub](https://img.shields.io/github/license/OverWolfDev/core)](https://github.com/OverWolfDev/core/blob/main/LICENSE.md)
 [![codecov](https://codecov.io/gh/OverWolfDev/core/branch/main/graph/badge.svg?token=QWL8FB16BR)](https://codecov.io/gh/OverWolfDev/core)
-[![npm bundle size](https://img.shields.io/bundlephobia/min/@overwolf/plugin-logger?logo=webpack&style=flat-square)](https://bundlephobia.com/result?p=@overwolf/plugin-logger)
-[![npm](https://img.shields.io/npm/v/@overwolf/plugin-logger?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@overwolf/plugin-logger)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/@overwolfdev/plugin-logger?logo=webpack&style=flat-square)](https://bundlephobia.com/result?p=@overwolfdev/plugin-logger)
+[![npm](https://img.shields.io/npm/v/@overwolfdev/plugin-logger?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@overwolfdev/plugin-logger)
 
 </div>
 
@@ -32,7 +32,7 @@ This plugin allows you to modularize the subcommands of a parent command into se
 
 ## Installation
 
-`@overwolf/plugin-subcommands-advanced` depends on the following packages. Be sure to install these along with this package!
+`@overwolfdev/plugin-subcommands-advanced` depends on the following packages. Be sure to install these along with this package!
 
 -   [`@sapphire/framework`](https://www.npmjs.com/package/@sapphire/framework)
 -   [`@sapphire/plugin-subcommands`](https://github.com/sapphiredev/plugins/tree/main/packages/subcommands)
@@ -40,7 +40,7 @@ This plugin allows you to modularize the subcommands of a parent command into se
 You can use the following command to install this package, or replace `npm install` with your package manager of choice.
 
 ```sh
-npm install @sapphire/framework @sapphire/plugin-subcommands @overwolf/plugin-subcommands-advanced
+npm install @sapphire/framework @sapphire/plugin-subcommands @overwolfdev/plugin-subcommands-advanced
 ```
 
 ---
@@ -52,7 +52,7 @@ npm install @sapphire/framework @sapphire/plugin-subcommands @overwolf/plugin-su
 In your main or setup file, register the plugin:
 
 ```javascript
-require('@overwolf/plugin-subcommands-advanced/register');
+require('@overwolfdev/plugin-subcommands-advanced/register');
 ```
 
 Once the plugin is registered, we have to configure some options.
@@ -78,7 +78,7 @@ void main();
 In your main or setup file, register the plugin:
 
 ```typescript
-import '@overwolf/plugin-subcommands-advanced/register';
+import '@overwolfdev/plugin-subcommands-advanced/register';
 ```
 
 Once the plugin is registered, we have to configure some options.
@@ -119,7 +119,7 @@ The parent command is important because it is where the subcommands and subcomma
 ### TypeScript
 
 ```typescript
-import { Subcommand } from '@overwolf/plugin-subcommands-advanced';
+import { Subcommand } from '@overwolfdev/plugin-subcommands-advanced';
 import { ApplicationCommandRegistry } from '@sapphire/framework';
 
 export class ParentCommand extends Subcommand {
@@ -160,7 +160,7 @@ export class ParentCommand extends Subcommand {
 ### JavaScript
 
 ```javascript
-import { Subcommand } from '@overwolf/plugin-subcommands-advanced';
+import { Subcommand } from '@overwolfdev/plugin-subcommands-advanced';
 
 export class ParentCommand extends Subcommand {
   constructor(context, options) {
@@ -204,7 +204,7 @@ To register commands as subcommands of the parent command it is necessary to use
 ### With Typescript
 
 ```typescript
-import { Command } from '@overwolf/plugin-subcommands-advanced';
+import { Command } from '@overwolfdev/plugin-subcommands-advanced';
 import type { Message } from 'discord.js';
 
 export class PingCommand extends Command {
@@ -234,7 +234,7 @@ export class PingCommand extends Command {
 ### With JavaScript
 
 ```javascript
-import { Command } from '@overwolf/plugin-subcommands-advanced';
+import { Command } from '@overwolfdev/plugin-subcommands-advanced';
 
 export class PingCommand extends Command {
 	constructor(context, options) {
@@ -267,7 +267,7 @@ To register commands as group subcommands it is important to first register the 
 ### With Typescript
 
 ```typescript
-import { Command } from '@overwolf/plugin-subcommands-advanced';
+import { Command } from '@overwolfdev/plugin-subcommands-advanced';
 
 export class PollCreateCommand extends Command {
 	public constructor(context: Command.Context, options: Command.Options) {
@@ -297,7 +297,7 @@ export class PollCreateCommand extends Command {
 ### With JavaScript
 
 ```javascript
-import { Command } from '@overwolf/plugin-subcommands-advanced';
+import { Command } from '@overwolfdev/plugin-subcommands-advanced';
 
 export class PollCreateCommand extends Command {
 	constructor(context, options) {
@@ -331,8 +331,8 @@ The plugin also includes subcommand decorators so that TypeScript users can easi
 ### Subcommands
 
 ```typescript
-import { RegisterSubCommand } from '@overwolf/plugin-subcommands-advanced';
-import { Command } from '@overwolf/plugin-subcommands-advanced';
+import { RegisterSubCommand } from '@overwolfdev/plugin-subcommands-advanced';
+import { Command } from '@overwolfdev/plugin-subcommands-advanced';
 
 @RegisterSubCommand('utils', (builder) => builder.setName('ping').setDescription('Hi!'))
 export class PingCommand extends Command {
@@ -351,8 +351,8 @@ export class PingCommand extends Command {
 ### Subcommands group
 
 ```typescript
-import { RegisterSubCommandGroup } from '@overwolf/plugin-subcommands-advanced';
-import { Command } from '@overwolf/plugin-subcommands-advanced';
+import { RegisterSubCommandGroup } from '@overwolfdev/plugin-subcommands-advanced';
+import { Command } from '@overwolfdev/plugin-subcommands-advanced';
 
 @RegisterSubCommandGroup('utils', 'poll', (builder) => builder.setName('create').setDescription('Create a poll'))
 export class PingCommand extends Command {

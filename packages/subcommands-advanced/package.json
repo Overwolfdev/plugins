@@ -1,8 +1,8 @@
 {
-	"name": "@overwolf/plugin-subcommands-advanced",
+	"name": "@overwolfdev/plugin-subcommands-advanced",
 	"version": "1.0.0",
 	"description": "Plugin for @sapphire/framework to be able to create subcommands based on command classes.",
-	"author": "@overwolf",
+	"author": "@overwolfdev",
 	"license": "MIT",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
