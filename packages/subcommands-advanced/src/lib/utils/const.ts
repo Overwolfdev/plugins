@@ -34,7 +34,7 @@ export const RegisterSubcommandsHooks = {
 				chatInputRun: commandPiece.chatInputRun
 					? async (i, c) => {
 							const preconditions = new PreconditionContainerArray(commandPiece.options.preconditions);
-							const result = await preconditions.chatInputRun(i, piece);
+							const result = await preconditions.chatInputRun(i, piece as any);
 							if (result.isErr())
 								return piece.container.client.emit(
 									SubcommandsAdvancedEvents.ChatInputSubcommandDenied,
@@ -53,7 +53,7 @@ export const RegisterSubcommandsHooks = {
 				messageRun: commandPiece.messageRun
 					? async (m, a, c) => {
 							const preconditions = new PreconditionContainerArray(commandPiece.options.preconditions);
-							const result = await preconditions.messageRun(m, piece, c);
+							const result = await preconditions.messageRun(m, piece as any, c);
 							if (result.isErr()) {
 								return piece.container.client.emit(
 									SubcommandsAdvancedEvents.MessageSubcommandDenied,
@@ -65,7 +65,7 @@ export const RegisterSubcommandsHooks = {
 									}
 								);
 							}
-							return commandPiece.messageRun!(m, a, c);
+							return commandPiece.messageRun!(m, a as any, c);
 					  }
 					: undefined
 			};
@@ -95,7 +95,7 @@ export const RegisterSubcommandsHooks = {
 					chatInputRun: commandPiece.chatInputRun
 						? async (i, c) => {
 								const preconditions = new PreconditionContainerArray(commandPiece.options.preconditions);
-								const result = await preconditions.chatInputRun(i, piece);
+								const result = await preconditions.chatInputRun(i, piece as any);
 								if (result.isErr())
 									return piece.container.client.emit(
 										SubcommandsAdvancedEvents.ChatInputSubcommandDenied,
@@ -114,7 +114,7 @@ export const RegisterSubcommandsHooks = {
 					messageRun: commandPiece.messageRun
 						? async (m, a, c) => {
 								const preconditions = new PreconditionContainerArray(commandPiece.options.preconditions);
-								const result = await preconditions.messageRun(m, piece, c);
+								const result = await preconditions.messageRun(m, piece as any, c);
 								if (result.isErr()) {
 									return piece.container.client.emit(
 										SubcommandsAdvancedEvents.MessageSubcommandDenied,
@@ -126,7 +126,7 @@ export const RegisterSubcommandsHooks = {
 										}
 									);
 								}
-								return commandPiece.messageRun!(m, a, c);
+								return commandPiece.messageRun!(m, a as any, c);
 						  }
 						: undefined
 				};

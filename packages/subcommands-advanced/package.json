@@ -38,7 +38,6 @@
 	},
 	"dependencies": {
 		"@sapphire/decorators": "^6.0.1",
-		"@sapphire/framework": "^4.4.2",
 		"tslib": "^2.5.0"
 	},
 	"repository": {
