@@ -749,6 +749,21 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@overwolfdev/plugin-subcommands-advanced@workspace:packages/subcommands-advanced":
+  version: 0.0.0-use.local
+  resolution: "@overwolfdev/plugin-subcommands-advanced@workspace:packages/subcommands-advanced"
+  dependencies:
+    "@favware/cliff-jumper": ^2.0.0
+    "@sapphire/decorators": ^6.0.1
+    "@sapphire/plugin-subcommands": ^4.0.1
+    gen-esm-wrapper: ^1.1.3
+    tslib: ^2.5.0
+    typedoc: ^0.24.6
+    typedoc-json-parser: ^7.3.1
+    typescript: ^5.0.4
+  languageName: unknown
+  linkType: soft
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -760,6 +775,15 @@ __metadata:
   version: 1.5.0
   resolution: "@sapphire/async-queue@npm:1.5.0"
   checksum: 983dbd1fd1b1798496e5edb6a0db7e4d90015160e1028f20475eab0a92625513f1e8d938bc0305811a9cec461c94e01b1e4191615ff03ba49356f568f3255250
+  languageName: node
+  linkType: hard
+
+"@sapphire/decorators@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "@sapphire/decorators@npm:6.0.1"
+  dependencies:
+    tslib: ^2.5.0
+  checksum: 348891a24f572eba80e805c30fb517987bf8cdf13318e2f1b0584f61e6fe10027593c0123fe5eff37a815d3a9fefab26c926b73c29a6b672faf9f074ef6b4044
   languageName: node
   linkType: hard
 
@@ -856,6 +880,16 @@ __metadata:
     "@sapphire/utilities": ^3.11.1
     tslib: ^2.5.0
   checksum: 4b4632e52263bee4b07c1ca08332602b19aae750eea3b121d70dbbdb640f25b3e8d3121ad8536947c4a124e7d16b39a0bf4cc1418e501bb43c7168e6262e9571
+  languageName: node
+  linkType: hard
+
+"@sapphire/plugin-subcommands@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "@sapphire/plugin-subcommands@npm:4.0.1"
+  dependencies:
+    "@sapphire/utilities": ^3.11.1
+    tslib: ^2.5.0
+  checksum: 2b22ee736fb4f5fdff9808f96242168aa99e0ffa9f2c35d76786eba64707667c2eb03ec4288b0fa133d4cf7007ad30e3b027b8e42c3f63b11c12977f85127f00
   languageName: node
   linkType: hard
 
