@@ -11,14 +11,7 @@
 
 # Packages\*\*
 
-[![npm](https://img.shields.io/npm/v/@overwolfdev/plugin-api?color=crimson&logo=npm&style=flat-square&label=@overwolfdev/plugin-api)](https://www.npmjs.com/package/@overwolfdev/plugin-api)
-[![npm](https://img.shields.io/npm/v/@overwolfdev/plugin-editable-commands?color=crimson&logo=npm&style=flat-square&label=@overwolfdev/plugin-editable-commands)](https://www.npmjs.com/package/@overwolfdev/plugin-editable-commands)
 [![npm](https://img.shields.io/npm/v/@overwolfdev/plugin-logger?color=crimson&logo=npm&style=flat-square&label=@overwolfdev/plugin-logger)](https://www.npmjs.com/package/@overwolfdev/plugin-logger)
-[![npm](https://img.shields.io/npm/v/@overwolfdev/plugin-i18next?color=crimson&logo=npm&style=flat-square&label=@overwolfdev/plugin-i18next)](https://www.npmjs.com/package/@overwolfdev/plugin-i18next)
-[![npm](https://img.shields.io/npm/v/@overwolfdev/plugin-subcommands?color=crimson&logo=npm&style=flat-square&label=@overwolfdev/plugin-subcommands)](https://www.npmjs.com/package/@overwolfdev/plugin-subcommands)
-[![npm](https://img.shields.io/npm/v/@overwolfdev/plugin-scheduled-tasks?color=crimson&logo=npm&style=flat-square&label=@overwolfdev/plugin-scheduled-tasks)](https://www.npmjs.com/package/@overwolfdev/plugin-scheduled-tasks)
-[![npm](https://img.shields.io/npm/v/@overwolfdev/plugin-pattern-commands?color=crimson&logo=npm&style=flat-square&label=@overwolfdev/plugin-pattern-commands)](https://www.npmjs.com/package/@overwolfdev/plugin-pattern-commands)
-[![npm](https://img.shields.io/npm/v/@overwolfdev/plugin-hmr?color=crimson&logo=npm&style=flat-square&label=@overwolfdev/plugin-hmr)](https://www.npmjs.com/package/@overwolfdev/plugin-hmr)
 
 ## Features
 
