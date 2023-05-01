@@ -1,17 +1,18 @@
 <!-- markdownlint-disable -->
-<div align="center">
 
+<div align="center">
 ![Sapphire Logo](https://raw.githubusercontent.com/overwolf/assets/main/banners/SapphireCommunity.png)
 
 # Overwolf Plugins
 
 **Plugins for Sapphire Framework.**
 
-[![GitHub](https://img.shields.io/github/license/overwolfdev/sapphire-template)](https://github.com/overwolfdev/sapphire-template/blob/main/LICENSE.md)
-
-# Packages\*\*
+# Packages
 
 [![npm](https://img.shields.io/npm/v/@overwolfdev/plugin-logger?color=crimson&logo=npm&style=flat-square&label=@overwolfdev/plugin-logger)](https://www.npmjs.com/package/@overwolfdev/plugin-logger)
+[![npm](https://img.shields.io/npm/v/@overwolfdev/plugin-subcommands-advanced?color=crimson&logo=npm&style=flat-square&label=@overwolfdev/plugin-subcommands-advanced)](https://www.npmjs.com/package/@overwolfdev/plugin-subcommands-advanced)
+
+</div>
 
 ## Features
 
@@ -25,8 +26,8 @@ Please make sure to read the [Contributing Guide][contributing] before making a 
 
 Thank you to all the people who already contributed to Sapphire!
 
-<a href="https://github.com/overwolfdev/sapphire-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=overwolfdev/sapphire-template" />
+<a href="https://github.com//graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=" />
 </a>
 
 [contributing]: https://github.com/overwolfdev/.github/blob/main/.github/CONTRIBUTING.md

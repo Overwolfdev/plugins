@@ -24,7 +24,7 @@
 		"./register.js",
 		"./register.mjs"
 	],
-	"homepage": "https://github.com/OverWolfDev/core/tree/main/packages/subcommands-advanced",
+	"homepage": "https://github.com/overwolfdev/plugins/tree/main/packages/subcommands-advanced",
 	"scripts": {
 		"test": "vitest run",
 		"lint": "eslint src tests --ext ts --fix",
@@ -42,7 +42,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/OverWolfDev/core.git",
+		"url": "git+https://github.com/overwolfdev/plugins.git",
 		"directory": "packages/subcommands-advanced"
 	},
 	"files": [
@@ -66,7 +66,7 @@
 		"sapphire"
 	],
 	"bugs": {
-		"url": "https://github.com/OverWolfDev/core/issues"
+		"url": "https://github.com/overwolfdev/plugins/issues"
 	},
 	"publishConfig": {
 		"access": "public"
