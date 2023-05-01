@@ -1,13 +1,11 @@
-![Sapphire Logo](https://raw.githubusercontent.com/OverWolfDev/assets/main/banners/SapphireCommunity.png)
+<!-- ![Sapphire Logo](https://raw.githubusercontent.com/OverWolfDev/assets/main/banners/SapphireCommunity.png) -->
 
 # @overwolfdev/plugin-subcommands-advanced
 
-**Plugin for <a href="https://github.com/sapphiredev/framework">@sapphire/framework</a> to have pretty console output.**
-
 [![GitHub](https://img.shields.io/github/license/overwolfdev/plugins)](https://github.com/overwolfdev/plugins/blob/main/LICENSE.md)
 [![codecov](https://codecov.io/gh/overwolfdev/plugins/branch/main/graph/badge.svg?token=QWL8FB16BR)](https://codecov.io/gh/overwolfdev/plugins)
-[![npm bundle size](https://img.shields.io/bundlephobia/min/@overwolfdev/plugin-logger?logo=webpack&style=flat-square)](https://bundlephobia.com/result?p=@overwolfdev/plugin-logger)
-[![npm](https://img.shields.io/npm/v/@overwolfdev/plugin-logger?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@overwolfdev/plugin-logger)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/@overwolfdev/plugin-subcommands-advanced?logo=webpack&style=flat-square)](https://bundlephobia.com/result?p=@overwolfdev/plugin-subcommands-advanced)
+[![npm](https://img.shields.io/npm/v/@overwolfdev/plugin-subcommands-advanced?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@overwolfdev/plugin-subcommands-advanced)
 
 </div>
 
@@ -374,7 +372,7 @@ That's it, the plugin will take care of configuring everything so that when the 
 
 This plugin is not official from `@sapphire/framework`, so if you need additional help ping me in discord with my tag `@「BDL」RedStar` on the [@sapphire/framework discord server](https://discord.gg/sapphiredev).
 
-## Buy us some doughnuts
+<!-- ## Buy us some doughnuts
 
 Sapphire Community is and always will be open source, even if we don't get donations. That being said, we know there are amazing people who may still want to donate just to show their appreciation. Thank you very much in advance!
 
@@ -385,7 +383,7 @@ We accept donations through Open Collective, Ko-fi, Paypal, Patreon and GitHub S
 | Open Collective | [Click Here](https://sapphirejs.dev/opencollective) |
 |      Ko-fi      |      [Click Here](https://sapphirejs.dev/kofi)      |
 |     Patreon     |    [Click Here](https://sapphirejs.dev/patreon)     |
-|     PayPal      |     [Click Here](https://sapphirejs.dev/paypal)     |
+|     PayPal      |     [Click Here](https://sapphirejs.dev/paypal)     | -->
 
 ## Contributors
 
