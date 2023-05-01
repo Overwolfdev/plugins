@@ -38,8 +38,6 @@
   color: 'c66037'
 - name: needs rebase & merge
   color: '24853c'
-- name: packages:logger
-  color: 'fbca04'
 - name: packages:subcommands-advanced
   color: 'fbca04'
 - name: performance

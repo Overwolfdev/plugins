@@ -84,23 +84,23 @@ jobs:
       - name: Generate Documentation
         run: yarn docs
 
-  Upload_Coverage_Report:
-    name: Upload coverage report to codecov
-    needs: [Testing]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Project
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 2
-      - name: Download Coverage report
-        uses: actions/download-artifact@v3
-        with:
-          name: coverage
-          path: coverage/
-      - name: Codecov Upload
-        uses: codecov/codecov-action@v3.1.1
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          directory: coverage/
-          fail_ci_if_error: true
+  # Upload_Coverage_Report:
+  #   name: Upload coverage report to codecov
+  #   needs: [Testing]
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout Project
+  #       uses: actions/checkout@v3
+  #       with:
+  #         fetch-depth: 2
+  #     - name: Download Coverage report
+  #       uses: actions/download-artifact@v3
+  #       with:
+  #         name: coverage
+  #         path: coverage/
+  #     - name: Codecov Upload
+  #       uses: codecov/codecov-action@v3.1.1
+  #       with:
+  #         token: ${{ secrets.CODECOV_TOKEN }}
+  #         directory: coverage/
+  #         fail_ci_if_error: true
