@@ -1,6 +1,6 @@
 {
 	"name": "@overwolfdev/plugin-subcommands-advanced",
-	"version": "1.0.0",
+	"version": "1.2.0",
 	"description": "Plugin for @sapphire/framework to be able to create subcommands based on command classes.",
 	"author": "@overwolfdev",
 	"license": "MIT",
