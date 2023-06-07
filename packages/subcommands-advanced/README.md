@@ -1,6 +1,9 @@
+<!-- markdownlint-disable -->
 <!-- ![Sapphire Logo](https://raw.githubusercontent.com/OverWolfDev/assets/main/banners/SapphireCommunity.png) -->
 
 # @overwolfdev/plugin-subcommands-advanced
+
+<div align="center">
 
 [![GitHub](https://img.shields.io/github/license/overwolfdev/plugins)](https://github.com/overwolfdev/plugins/blob/main/LICENSE.md)
 [![codecov](https://codecov.io/gh/overwolfdev/plugins/branch/main/graph/badge.svg?token=QWL8FB16BR)](https://codecov.io/gh/overwolfdev/plugins)
@@ -17,7 +20,7 @@ Currently the problem with the original subcommand plugin is that you have to pu
 
 This plugin allows you to modularize the subcommands of a parent command into several command classes and also allows you to use different preconditions on each subcommand.
 
-<div align="center">
+<div>
 
 ## Features
 

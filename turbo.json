@@ -15,10 +15,6 @@
 		"check-update": {
 			"dependsOn": [],
 			"outputs": []
-		},
-		"docs": {
-			"dependsOn": [],
-			"outputs": ["docs/**"]
 		}
 	}
 }
